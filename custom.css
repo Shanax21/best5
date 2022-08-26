@@ -1,0 +1,319 @@
+header{
+    background-color: black;
+    height: 500px;
+}
+
+.intom{
+    height:500px;
+}
+
+.boink1{
+margin-left: 200px;;
+box-sizing: border-box;
+
+position: absolute;
+width: 264px;
+height: 371px;
+left: 156px;
+top: 555px;
+
+background: #0D0D0D;
+border: 1px solid #434343;
+}
+.boink2{
+    margin-left:200px;
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 264px;
+    height: 371px;
+    left: 444px;
+    top: 555px;
+    
+    background: #0D0D0D;
+    border: 1px solid #434343;
+}
+
+.boink3{
+    margin-left:200px;
+    box-sizing: border-box;
+position: absolute;
+width: 264px;
+height: 371px;
+left: 732px;
+top: 555px;
+
+background: #0D0D0D;
+border: 1px solid #434343;
+}
+
+.boink4{
+    margin-left:200px;
+    position: absolute;
+width: 264px;
+height: 371px;
+left: 1020px;
+top: 555px;
+
+background: #0D0D0D;
+}
+
+.boink5{
+    margin-left:200px;
+    box-sizing: border-box;
+
+position: absolute;
+width: 264px;
+height: 371px;
+left: 156px;
+top: 950px;
+
+background: #0D0D0D;
+border: 1px solid #434343;
+}
+
+.boink6{
+    margin-left:200px;
+    box-sizing: border-box;
+
+position: absolute;
+width: 264px;
+height: 371px;
+left: 444px;
+top: 950px;
+
+background: #0D0D0D;
+border: 1px solid #434343;
+}
+
+.boink7{
+    margin-left:200px;
+box-sizing: border-box;
+position: absolute;
+width: 264px;
+height: 371px;
+left: 732px;
+top: 950px;
+
+background: #0D0D0D;
+border: 1px solid #434343;
+}
+
+.boink8{
+    margin-left:200px;
+    position: absolute;
+width: 264px;
+height: 514px;
+left: 1020px;
+top: 950px;
+
+background: #0D0D0D;
+}
+
+.boink9{
+    margin-left:200px;
+    
+    box-sizing: border-box;
+
+position: absolute;
+width: 264px;
+height: 371px;
+left: 156px;
+top: 1345px;
+
+background: #0D0D0D;
+border: 1px solid #434343;
+}
+
+.boink10{
+    margin-left:200px;
+    box-sizing: border-box;
+
+position: absolute;
+width: 264px;
+height: 371px;
+left: 444px;
+top: 1345px;
+
+background: #0D0D0D;
+border: 1px solid #434343;
+}
+
+.boink11{
+    margin-left:200px;
+    box-sizing: border-box;
+
+position: absolute;
+width: 264px;
+height: 371px;
+left: 732px;
+top: 1345px;
+
+background: #0D0D0D;
+border: 1px solid #434343;
+}
+
+.image1{
+position: absolute;
+width: 264px;
+height: 204px;
+left: 0px;
+top: 0px;
+
+}
+
+.rectifier{
+    position: absolute;
+width: 146px;
+height: 33px;
+left: 57px;
+top: 220px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 19px;
+line-height: 33px;
+
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.rectifier2{
+position: absolute;
+width: 146px;
+height: 33px;
+left: 57px;
+top: 20px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 33px;
+
+
+text-align: center;
+
+color: #FFFFFF;
+
+
+}
+
+.terminal{
+    position: absolute;
+    width: 146px;
+    height: 33px;
+    left: 57px;
+    top: 20px;
+    
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 33px;
+    
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.goaler{
+    position: absolute;
+width: 167px;
+height: 22px;
+left: 48px;
+top: 261px;
+}
+
+.tunami{
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #B3B3B3;
+}
+
+.btn{
+
+    position: absolute;
+width: 221px;
+height: 42px;
+left: 21px;
+top: 308px;
+background-color: blue;
+color:white;
+font-weight:500;
+}
+
+.btn:hover{
+    position: absolute;
+    width: 221px;
+    height: 42px;
+    left: 21px;
+    top: 308px;
+    background-color: lightblue;
+    color:white;
+    font-weight:500;
+}
+
+.btn:disabled{
+    position: absolute;
+    width: 221px;
+    height: 42px;
+    left: 21px;
+    top: 308px;
+    background-color: grey;
+    color:white;
+    font-weight:500;
+}
+
+hr{
+position:absolute;
+width: 100%;
+height: 2px;
+left: 0px;
+top: 1800px;
+bottom:30px;
+background: #717171;
+}
+.hr2{
+    position:absolute;
+    width: 100%;
+    height: 2px;
+    left: 0px;
+    top: 1900px;
+    bottom:30px;
+    background: #717171; 
+}
+
+footer{
+    margin-bottom: 300px;
+    position:absolute;
+    width: 274px;
+height: 26px;
+left: 820px;
+top: 1840px;
+text-align:center;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #FFFFFF;
+}
