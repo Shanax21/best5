@@ -12,6 +12,8 @@ document.getElementById('button').addEventListener('click',function(){
         li.style.fontSize="15px";
         list.append(li);
         counter++;
+        const button1 = document.querySelector('button');
+        button1.disabled=true;
     }
     
 })
@@ -28,6 +30,8 @@ document.getElementById('button2').addEventListener('click',function(){
         li.style.fontSize="15px";
         list.append(li);
         counter++;
+        const button2 = document.getElementById('button2');
+        button2.disabled=true;
     }
     
 })
@@ -44,6 +48,8 @@ document.getElementById('button3').addEventListener('click',function(){
         li.style.fontSize="15px";
         list.append(li);
         counter++;
+        const button3 = document.getElementById('button3');
+        button3.disabled=true;
     }
     
 })
@@ -60,6 +66,8 @@ document.getElementById('button4').addEventListener('click',function(){
         li.style.fontSize="15px";
         list.append(li);
         counter++;
+        const button4 = document.getElementById('button4');
+        button4.disabled=true;
     }
     
 })
@@ -76,6 +84,8 @@ document.getElementById('button5').addEventListener('click',function(){
         li.style.fontSize="15px";
         list.append(li);
         counter++;
+        const button5 = document.getElementById('button5');
+        button5.disabled=true;
     }
     
 })
@@ -92,6 +102,8 @@ document.getElementById('button6').addEventListener('click',function(){
         li.style.fontSize="15px";
         list.append(li);
         counter++;
+        const button6 = document.getElementById('button6');
+        button6.disabled=true;
     }
     
 })
@@ -108,6 +120,8 @@ document.getElementById('button7').addEventListener('click',function(){
         li.style.fontSize="15px";
         list.append(li);
         counter++;
+        const button7 = document.getElementById('button7');
+        button7.disabled=true;
     }
     
 })
@@ -124,6 +138,8 @@ document.getElementById('button8').addEventListener('click',function(){
         li.style.fontSize="15px";
         list.append(li);
         counter++;
+        const button8 = document.getElementById('button8');
+        button8.disabled=true;
     }
     
 })
@@ -140,6 +156,9 @@ document.getElementById('button9').addEventListener('click',function(){
         li.style.fontSize="15px";
         list.append(li);
         counter++;
+        const button9 = document.getElementById('button9');
+        button9.disabled=true;
+
     }
     
 })
