@@ -143,3 +143,16 @@ document.getElementById('button9').addEventListener('click',function(){
     }
     
 })
+
+document.getElementById('expense_button').addEventListener('click',function(){
+    const input = document.getElementById('inputfield');
+    const invalue = input.value;
+    const invalueint = parseInt(invalue)*5;
+    const valstring = document.getElementById('amount');
+    valstring.innerText=invalueint;
+    
+
+
+
+
+})
