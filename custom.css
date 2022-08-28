@@ -254,6 +254,94 @@ background-color: blue;
 color:white;
 font-weight:500;
 }
+.btn2{
+
+    position: absolute;
+width: 221px;
+height: 42px;
+left: 21px;
+top: 308px;
+background-color: blue;
+color:white;
+font-weight:500;
+}
+.btn3{
+
+    position: absolute;
+width: 221px;
+height: 42px;
+left: 21px;
+top: 308px;
+background-color: blue;
+color:white;
+font-weight:500;
+}
+.btn4{
+
+    position: absolute;
+width: 221px;
+height: 42px;
+left: 21px;
+top: 308px;
+background-color: blue;
+color:white;
+font-weight:500;
+}
+.btn5{
+
+    position: absolute;
+width: 221px;
+height: 42px;
+left: 21px;
+top: 308px;
+background-color: blue;
+color:white;
+font-weight:500;
+}
+.btn6{
+
+    position: absolute;
+width: 221px;
+height: 42px;
+left: 21px;
+top: 308px;
+background-color: blue;
+color:white;
+font-weight:500;
+}
+.btn7{
+
+    position: absolute;
+width: 221px;
+height: 42px;
+left: 21px;
+top: 308px;
+background-color: blue;
+color:white;
+font-weight:500;
+}
+.btn8{
+
+    position: absolute;
+width: 221px;
+height: 42px;
+left: 21px;
+top: 308px;
+background-color: blue;
+color:white;
+font-weight:500;
+}
+.btn9{
+
+    position: absolute;
+width: 221px;
+height: 42px;
+left: 21px;
+top: 308px;
+background-color: blue;
+color:white;
+font-weight:500;
+}
 
 .btn:hover{
     position: absolute;
@@ -265,8 +353,169 @@ font-weight:500;
     color:white;
     font-weight:500;
 }
+.btn2:hover{
+    position: absolute;
+    width: 221px;
+    height: 42px;
+    left: 21px;
+    top: 308px;
+    background-color: lightblue;
+    color:white;
+    font-weight:500;
+}
+.btn3:hover{
+    position: absolute;
+    width: 221px;
+    height: 42px;
+    left: 21px;
+    top: 308px;
+    background-color: lightblue;
+    color:white;
+    font-weight:500;
+}
+.btn4:hover{
+    position: absolute;
+    width: 221px;
+    height: 42px;
+    left: 21px;
+    top: 308px;
+    background-color: lightblue;
+    color:white;
+    font-weight:500;
+}
+.btn5:hover{
+    position: absolute;
+    width: 221px;
+    height: 42px;
+    left: 21px;
+    top: 308px;
+    background-color: lightblue;
+    color:white;
+    font-weight:500;
+}
+.btn6:hover{
+    position: absolute;
+    width: 221px;
+    height: 42px;
+    left: 21px;
+    top: 308px;
+    background-color: lightblue;
+    color:white;
+    font-weight:500;
+}
+.btn7:hover{
+    position: absolute;
+    width: 221px;
+    height: 42px;
+    left: 21px;
+    top: 308px;
+    background-color: lightblue;
+    color:white;
+    font-weight:500;
+}
+.btn8:hover{
+    position: absolute;
+    width: 221px;
+    height: 42px;
+    left: 21px;
+    top: 308px;
+    background-color: lightblue;
+    color:white;
+    font-weight:500;
+}
+.btn9:hover{
+    position: absolute;
+    width: 221px;
+    height: 42px;
+    left: 21px;
+    top: 308px;
+    background-color: lightblue;
+    color:white;
+    font-weight:500;
+}
+
 
 .btn:disabled{
+    position: absolute;
+    width: 221px;
+    height: 42px;
+    left: 21px;
+    top: 308px;
+    background-color: grey;
+    color:white;
+    font-weight:500;
+}
+.btn2:disabled{
+    position: absolute;
+    width: 221px;
+    height: 42px;
+    left: 21px;
+    top: 308px;
+    background-color: grey;
+    color:white;
+    font-weight:500;
+}
+.btn3:disabled{
+    position: absolute;
+    width: 221px;
+    height: 42px;
+    left: 21px;
+    top: 308px;
+    background-color: grey;
+    color:white;
+    font-weight:500;
+}
+.btn4:disabled{
+    position: absolute;
+    width: 221px;
+    height: 42px;
+    left: 21px;
+    top: 308px;
+    background-color: grey;
+    color:white;
+    font-weight:500;
+}
+.btn5:disabled{
+    position: absolute;
+    width: 221px;
+    height: 42px;
+    left: 21px;
+    top: 308px;
+    background-color: grey;
+    color:white;
+    font-weight:500;
+}
+.btn6:disabled{
+    position: absolute;
+    width: 221px;
+    height: 42px;
+    left: 21px;
+    top: 308px;
+    background-color: grey;
+    color:white;
+    font-weight:500;
+}
+.btn7:disabled{
+    position: absolute;
+    width: 221px;
+    height: 42px;
+    left: 21px;
+    top: 308px;
+    background-color: grey;
+    color:white;
+    font-weight:500;
+}
+.btn8:disabled{
+    position: absolute;
+    width: 221px;
+    height: 42px;
+    left: 21px;
+    top: 308px;
+    background-color: grey;
+    color:white;
+    font-weight:500;
+}
+.btn9:disabled{
     position: absolute;
     width: 221px;
     height: 42px;
@@ -560,4 +809,12 @@ color: #AFAFAF;
     
     color: #AFAFAF;
 
+}
+
+.list_players{
+    color:white;
+    font-size:12px;
+    margin-left: 110px;
+    margin-top:60px;
+    text-align:left;
 }
