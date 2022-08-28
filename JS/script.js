@@ -66,6 +66,7 @@ document.getElementById('expense_button').addEventListener('click',function(){
     const invalueint = parseInt(invalue)*5;
     const valstring = document.getElementById('amount');
     valstring.innerText=invalueint;
+
     
 })
 
@@ -86,6 +87,8 @@ const calculator = input1valint+input2valint+playervalue;
 const subtotal = document.getElementById('subtotal');
 
 subtotal.innerText=calculator;
+input1.value='';
+input2.value='';
 
 
 })
