@@ -1,165 +1,61 @@
 var counter=1;
-document.getElementById('button').addEventListener('click',function(){
+
+function listadder(name,button){
     if (counter>5){
         alert("Maximum Players have been selected.");
     }
     else{
         const list = document.getElementById('lister');
         const li = document.createElement('li');
-        const name = document.getElementById('name');
-        const namevalue = name.innerText;
+        const namer = document.getElementById(name);
+        const namevalue = namer.innerText;
         li.innerText=namevalue;
         li.style.fontSize="15px";
         list.append(li);
         counter++;
-        const button1 = document.querySelector('button');
+        const button1 = document.getElementById(button);
         button1.disabled=true;
     }
+}
+
+document.getElementById('button').addEventListener('click',function(){
+    listadder("name","button");
     
 })
 document.getElementById('button2').addEventListener('click',function(){
-    if (counter>5){
-        alert("Maximum Players have been selected.");
-    }
-    else{
-        const list = document.getElementById('lister');
-        const li = document.createElement('li');
-        const name = document.getElementById('name2');
-        const namevalue = name.innerText;
-        li.innerText=namevalue;
-        li.style.fontSize="15px";
-        list.append(li);
-        counter++;
-        const button2 = document.getElementById('button2');
-        button2.disabled=true;
-    }
-    
+  listadder("name2","button2");
 })
 document.getElementById('button3').addEventListener('click',function(){
-    if (counter>5){
-        alert("Maximum Players have been selected.");
-    }
-    else{
-        const list = document.getElementById('lister');
-        const li = document.createElement('li');
-        const name = document.getElementById('name3');
-        const namevalue = name.innerText;
-        li.innerText=namevalue;
-        li.style.fontSize="15px";
-        list.append(li);
-        counter++;
-        const button3 = document.getElementById('button3');
-        button3.disabled=true;
-    }
+    listadder("name3","button3");
     
 })
 document.getElementById('button4').addEventListener('click',function(){
-    if (counter>5){
-        alert("Maximum Players have been selected.");
-    }
-    else{
-        const list = document.getElementById('lister');
-        const li = document.createElement('li');
-        const name = document.getElementById('name4');
-        const namevalue = name.innerText;
-        li.innerText=namevalue;
-        li.style.fontSize="15px";
-        list.append(li);
-        counter++;
-        const button4 = document.getElementById('button4');
-        button4.disabled=true;
-    }
+    
+    listadder("name4","button4");
     
 })
 document.getElementById('button5').addEventListener('click',function(){
-    if (counter>5){
-        alert("Maximum Players have been selected.");
-    }
-    else{
-        const list = document.getElementById('lister');
-        const li = document.createElement('li');
-        const name = document.getElementById('name5');
-        const namevalue = name.innerText;
-        li.innerText=namevalue;
-        li.style.fontSize="15px";
-        list.append(li);
-        counter++;
-        const button5 = document.getElementById('button5');
-        button5.disabled=true;
-    }
+   
+    listadder("name5","button5");
     
 })
 document.getElementById('button6').addEventListener('click',function(){
-    if (counter>5){
-        alert("Maximum Players have been selected.");
-    }
-    else{
-        const list = document.getElementById('lister');
-        const li = document.createElement('li');
-        const name = document.getElementById('name6');
-        const namevalue = name.innerText;
-        li.innerText=namevalue;
-        li.style.fontSize="15px";
-        list.append(li);
-        counter++;
-        const button6 = document.getElementById('button6');
-        button6.disabled=true;
-    }
+    
+    listadder("name6","button6");
     
 })
 document.getElementById('button7').addEventListener('click',function(){
-    if (counter>5){
-        alert("Maximum Players have been selected.");
-    }
-    else{
-        const list = document.getElementById('lister');
-        const li = document.createElement('li');
-        const name = document.getElementById('name7');
-        const namevalue = name.innerText;
-        li.innerText=namevalue;
-        li.style.fontSize="15px";
-        list.append(li);
-        counter++;
-        const button7 = document.getElementById('button7');
-        button7.disabled=true;
-    }
+    
+    listadder("name7","button7");
     
 })
 document.getElementById('button8').addEventListener('click',function(){
-    if (counter>5){
-        alert("Maximum Players have been selected.");
-    }
-    else{
-        const list = document.getElementById('lister');
-        const li = document.createElement('li');
-        const name = document.getElementById('name8');
-        const namevalue = name.innerText;
-        li.innerText=namevalue;
-        li.style.fontSize="15px";
-        list.append(li);
-        counter++;
-        const button8 = document.getElementById('button8');
-        button8.disabled=true;
-    }
+    listadder("name8","button8");
     
 })
 document.getElementById('button9').addEventListener('click',function(){
-    if (counter>5){
-        alert("Maximum Players have been selected.");
-    }
-    else{
-        const list = document.getElementById('lister');
-        const li = document.createElement('li');
-        const name = document.getElementById('name9');
-        const namevalue = name.innerText;
-        li.innerText=namevalue;
-        li.style.fontSize="15px";
-        list.append(li);
-        counter++;
-        const button9 = document.getElementById('button9');
-        button9.disabled=true;
-
-    }
+   
+    listadder("name9","button9");
     
 })
 // For calculating player amount
