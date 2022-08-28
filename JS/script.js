@@ -143,6 +143,7 @@ document.getElementById('button9').addEventListener('click',function(){
     }
     
 })
+// For calculating player amount
 
 document.getElementById('expense_button').addEventListener('click',function(){
     const input = document.getElementById('inputfield');
@@ -151,8 +152,25 @@ document.getElementById('expense_button').addEventListener('click',function(){
     const valstring = document.getElementById('amount');
     valstring.innerText=invalueint;
     
+})
 
+document.getElementById('total_button').addEventListener('click',function(){
 
+const input1 = document.getElementById('manager_input');
+const input1val = input1.value;
+const input1valint = parseInt(input1val);
+
+const input2 = document.getElementById('coach_input');
+const input2val = input2.value;
+const input2valint = parseInt(input2val);
+
+const player = document.getElementById('inputfield');
+const playervalue = parseInt(player.value)*5;
+const calculator = input1valint+input2valint+playervalue;
+
+const subtotal = document.getElementById('subtotal');
+
+subtotal.innerText=calculator;
 
 
 })
